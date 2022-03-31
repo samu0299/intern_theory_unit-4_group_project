@@ -1,0 +1,650 @@
+
+#navbar{
+    width: 101%;
+    height: 50px;
+    
+    position: fixed;
+    display: flex;
+    margin-left: -15px;
+    margin-top: -9px;
+    margin-top: -50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    
+    z-index: 1;
+ 
+   
+}
+#navbar a{
+    text-decoration: none;
+}
+#optionIcon{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    opacity: 60%;
+
+}
+
+#optionIcon:hover{
+
+    background-color: rgb(221, 218, 218);
+    border-radius: 50%;
+}
+#internIcon{
+    width: 70px;
+    height: 35px;
+    padding: 7px;
+}
+#cardicon{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 75%;
+    margin-right: 2%;
+    
+}
+#carticon2{
+    margin-left: 75%;
+    margin-right: 2%;
+}
+#cardicon:hover{
+
+    background-color: rgb(221, 218, 218);
+    border-radius: 50%;
+    
+
+}
+#cartCount{
+    color: white;
+    background-color: #df1e2e;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: 5px;
+    
+    
+}
+#signinicon{
+    color: white;
+    background-color: #df1e2e;
+    height: 20px;
+    font-size: 13px;
+    padding:  7px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+    
+
+}
+#signinicon:hover{
+    background-color: #85050f;
+}
+#SearchBackground{
+    background-image: url("https://assets.interntheory.com/creative/Homepage-Banner.png");
+    background-size: 100%;
+    
+    width: 101%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: -8px;
+    min-height: 60vh;
+    
+}
+/* Till Navbar Styling */
+
+
+
+
+
+
+
+
+
+
+
+/* styling for footer */
+#myfooter{
+    width: 92%;
+    height: 290px;
+    margin-left: -10px;
+    padding-left: 9%;
+    background-color: #446478;
+    margin-bottom: -10px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+   
+    
+
+}
+#myfooter p{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 13PX;
+}
+
+#myfooter a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    
+}
+li{
+    list-style: none;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+.myhr{
+    height: 1px;
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: #999;
+}
+#onelinetexts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    text-align: center;
+    margin-left: 9%;
+
+
+}
+#onelinetexts p{
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+#onelinetexts a{
+    text-decoration: none;
+}
+#seperaterline{
+    width: 80%;
+    margin: 0px 10%;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin-top: -10px;
+}
+
+#copyrighttext{
+    text-align: center;
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: -12px;
+    border: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* styling For Sidebar */
+
+#sidebar_container{
+    display: none;
+    
+}
+#overallpage{
+    height: 100%;
+    width: 100.1%;
+    margin-left: -10px;
+    position: fixed;
+    background-color: rgba(15, 3, 3, 0);
+    top: 0;
+    display: flex;
+    
+}
+#leftSidebar{
+    background-color: white;
+    height: 100%;
+    width: 16%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+#leftSidebar a{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #212121;
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    justify-content: flex-start;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5em;
+    border-radius: 0;
+    vertical-align: middle;
+    text-transform: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.mysideicons{
+    width: 15px;
+    margin: 0px 20px 0px 0px;
+   
+}
+.Mysideoptions:hover{
+    background-color: rgb(216, 214, 214);
+
+
+}
+#optionforcloseside{
+    width: 84%;
+    height: 100%;
+   
+    background-color: rgba(15, 3, 3, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fadebackground{
+    width: 100%;
+    margin-left: -5px;
+    height: 60vh;
+    background-color:rgba(68, 100, 120,0.6) ;
+    position: absolute;
+   
+    
+}
+.readytext{
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    z-index: 1;
+    padding: 0px 5px;
+    
+
+   
+}
+.letsget{
+    color: white;
+    font-size: 1.3rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    z-index: 1;
+    font-weight: lighter;
+    margin-top: -1px;
+    
+
+}
+.headpara{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 1px;
+    line-height: 1.75;
+    letter-spacing: 0.00938em;
+    width:100%;
+    text-align: center;
+    margin-top: -40px;
+
+}
+#myonediv{
+    text-align: center;
+    
+    width: 50%;
+    height: 50px;
+    display: block;
+    margin: 85px 25% 10px 25%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    opacity: 1;
+    z-index: 1;
+}
+
+/* now starting styling of searchbar */
+
+#mysearchdiv{
+    width: 80%;
+    background: rgba(251, 251, 251, 0.7);
+    padding: 1.4% 2.2%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 10px 8% 20px 8%;
+    border-radius: 10px;
+    display: flex;
+}
+.myselectbox{
+    border: 0px;
+    padding: 10px 0px;
+    margin: 0px 5px;
+    width: 22%;
+    background-color: rgba(230, 225, 225, 0.37);
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+#divforsearch{
+    padding: 5px;
+    
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#mysmallinput{
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    border-bottom: 1px solid gray;
+    margin-top: 1px;
+}
+#ayazsearchButton{
+    color: white;
+    background-color: #df1e2e;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+#ayazsearchButton:hover{
+    background-color: #8f1721;
+}
+
+/* Second main div starting */
+
+#SecondMainDiv{
+    width: 101.2%;
+    height: 350px;
+    /* border: 2px solid red; */
+    margin-left: -10px;
+    display: flex;
+    
+}
+.mysecondDivLeft{
+    width: 40%;
+    /* border: 1px solid red; */
+    height: 40%;
+    margin:0px 0px 0px 9% ;
+    padding: 8% 1%;
+
+}
+.mysimpletext{
+    font-size: 0.775rem;
+    
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    color: gray;
+    margin-top: -10px;
+}
+#myseconddivhead{
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 0px;
+
+}
+.mysecondDivRight{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    margin-top: 20px;
+    margin-left: 25px;
+    
+}
+.mysecondDivRight>img{
+    width: 70px;
+    margin-right: 55px;
+}
+
+/* Styling for ThirdDiv */
+#ThirdDivContainer{
+    width: 101%;
+    height: 320px;
+    margin-left: -10px;
+    background: rgb(247, 252, 254);
+    padding: 80px 0px 90px;
+
+
+}
+.my12text{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    
+    
+    line-height: 1.33;
+    letter-spacing: 0em;
+    margin-top: -8px;
+}
+#someContentContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 150px 150px;
+    grid-gap: 6px;
+    width: 80%;
+    height: 310px;
+   
+    margin: 0px 10%;
+    margin-top: -40px;
+}
+#someContentContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+
+
+/* Styling for fourth Div */
+
+#fourthMainDiv{
+    width: 101%;
+    height: 170px;
+    margin-left: -10px;
+    
+    background: rgb(238, 238, 238) ;
+    padding: 80px 0px 90px;
+
+}
+.my123text{
+
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    
+    
+    line-height: 1.33;
+    letter-spacing: 0em;
+    margin-top: -8px;
+
+}
+#UpscallingContainer{
+    width: 80%;
+    height: 150px;
+    margin: -50px 10% 0% 10%;
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    
+
+
+}
+#UpscallingContainer img{
+    width: 100%;
+    height: 150px;
+    border-radius: 3px;
+
+}
+/* Styling for fifth main div */
+#fifthMainDiv{
+    /* border: 1px solid red; */
+    
+    width: 101%;
+    height: 305px;
+    margin-left: -10px;
+    display: flex;
+
+}
+#StudentsImg{
+    /* border: 2px solid green; */
+    width: 230px;
+    height: 230px;
+    margin-left: 20.5%;
+    margin-top: 20px;
+}
+/* Styling for sixth div */
+
+#sixthMainDiv{
+    width: 101%;
+    margin-left: -10px;
+    height: 150px;
+    /* border: 2px solid black; */
+    
+    
+    background: rgb(238, 238, 238);
+    padding: 30px 0px;
+   
+
+}
+#sixMySlidContainer{
+    width: 74%;
+    margin: 0px 13%;
+    height: 153px;
+    /* border: 2px solid red; */
+    
+    
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,85%);
+    overflow-x: scroll;
+    
+
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+
+}
+.my1slidingDiv{
+    height: 150px;
+    /* border: 2px solid red; */
+    
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+
+
+
+.my1slidingDiv h5{
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    
+    line-height: 1.33;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+    
+    margin-top: 0px;
+
+}
+.my1slidingDiv img{
+
+    margin-left: 38%;
+    margin-top: 15px;
+    border-radius: 50%;
+
+}
+.my1slidingDivfirstP{
+    text-align: center;
+    /* border: 1px solid red; */
+    
+    margin-top: -15%;
+    color: #087CDD;
+    font-size: 0.60rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+font-weight: bold;
+
+
+}
+.myinvesterpara{
+   
+        color: #666;
+        padding: 5px;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 20px;
+        margin-top: 40px;
+
+}
+
+

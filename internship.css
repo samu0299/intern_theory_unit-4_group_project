@@ -1,0 +1,384 @@
+#Ucontainer{
+    display: flex;
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+#Uleft{
+    width: 28%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 300px;
+    
+    /* border: 1px solid red; */
+}
+#Uright>div{
+    margin-left: 10px;
+    width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    height:200px;
+    margin-top: 10px;
+    display: flex;
+}
+#image{
+    height: 100%;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+#content{
+    height: 100%;
+    width: 55%;
+    line-height: 5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: rgb(66,72,88);
+}
+#button{
+    height: 100%;
+    width: 22%;
+    text-align: center;
+    opacity: 0.7;
+}
+.btnlogo{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+
+.btnlogo2{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo2:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo3{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo3:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo4{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo4:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo5{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo5:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo6{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo6:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+
+
+#searcbarcontainer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(252, 252, 252);
+}
+
+
+
+/* now starting styling of searchbar */
+
+#mysearchdiv{
+    width: 80%;
+    background: rgb(241, 238, 238);
+    padding: 1.4% 1.2%;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 10px 8% 10px 8%;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 40px;
+    position: fixed;
+}
+.myselectbox{
+    border: 0px;
+    padding: 0px 0px;
+    margin: 0px 5px;
+    width: 22%;
+    height: 35%;
+    background-color: rgba(230, 225, 225, 0.37);
+    border: 0px;
+    border-bottom: 1px solid gray;
+}
+#divforsearch{
+    padding: 5px;
+    
+    background-color: rgb(233, 233, 233);
+    border-radius: 3px;
+}
+#mysmallinput{
+    border: 0px;
+    background-color: rgb(233, 233, 233);
+    border-bottom: 1px solid gray;
+    margin-top: 1px;
+    z-index: 1;
+}
+#ayazsearchButton{
+    color: white;
+    background-color: #df1e2e;
+    border: 0px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+#ayazsearchButton:hover{
+    background-color: #8f1721;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navbar{
+    width: 101%;
+    height: 50px;
+    
+    position: fixed;
+    display: flex;
+    margin-left: -15px;
+    margin-top: -9px;
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    
+    z-index: 1;
+ 
+   
+}
+#navbar a{
+    text-decoration: none;
+}
+#optionIcon{
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    opacity: 60%;
+
+}
+
+#optionIcon:hover{
+
+    background-color: rgb(221, 218, 218);
+    border-radius: 50%;
+}
+#internIcon{
+    width: 70px;
+    height: 35px;
+    padding: 7px;
+}
+#cardicon{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 75%;
+    margin-right: 2%;
+    
+}
+#carticon2{
+    margin-left: 75%;
+    margin-right: 2%;
+}
+#cardicon:hover{
+
+    background-color: rgb(221, 218, 218);
+    border-radius: 50%;
+    
+
+}
+#cartCount{
+    color: white;
+    background-color: #df1e2e;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: 5px;
+    
+    
+}
+#signinicon{
+    color: white;
+    background-color: #df1e2e;
+    height: 20px;
+    font-size: 13px;
+    padding:  7px 10px;
+    border-radius: 3px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+    
+
+}
+#signinicon:hover{
+    background-color: #85050f;
+}
+#SearchBackground{
+    background-image: url("https://assets.interntheory.com/creative/Homepage-Banner.png");
+    background-size: 100%;
+    
+    width: 101%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: -8px;
+    min-height: 60vh;
+    
+}
+/* Till Navbar Styling */
+
+
+
+
+
+
+
+
+
+
+
+/* styling for footer */
+#myfooter{
+    width: 92%;
+    height: 290px;
+    margin-left: -10px;
+    padding-left: 9%;
+    background-color: #446478;
+    margin-bottom: -10px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-top: 950px;
+   
+    
+
+}
+#myfooter p{
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 13PX;
+}
+
+#myfooter a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    
+}
+li{
+    list-style: none;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+.myhr{
+    height: 1px;
+    margin: 0;
+    border: none;
+    flex-shrink: 0;
+    background-color: #999;
+}
+#onelinetexts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -50px;
+    text-align: center;
+    margin-left: 9%;
+
+
+}
+#onelinetexts p{
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    
+}
+#onelinetexts a{
+    text-decoration: none;
+}
+#seperaterline{
+    width: 80%;
+    margin: 0px 10%;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin-top: -10px;
+}
+#copyrighttext{
+    text-align: center;
+    font-size: 5px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.01071em;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: -12px;
+    border: 0px;
+}

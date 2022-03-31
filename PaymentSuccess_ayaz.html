@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        input{
+            text-align: center;
+        }
+        form{
+           
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Payment Gateway</h1>
+    <form id="Myform" action="">
+
+        <input type="number" name="" id="cardNo" placeholder="Card Number">
+        <br>
+        <br>
+
+        <input type="number" name="" id="cvv" maxlength="3"  placeholder="CVV">
+        <br><br>
+
+        <input type="text" id="name" placeholder="Name">
+        <br><br>
+
+        <input type="date" placeholder="Expiry Date" id="date">
+        <br><br>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
+<script>
+
+</script>
+<script>
+
+    document.querySelector("#Myform").addEventListener("submit",myfun)
+
+    function myfun(event){
+
+        event.preventDefault()
+
+        var cardNo=document.querySelector("#cardNo")
+    var cvv=document.querySelector("#cvv")
+    var name=document.querySelector("#name")
+    var date=document.querySelector("#date")
+
+    if(cardNo.value!=="" && cvv.value!=="" && name.value!=="" &&date.value!=="")
+    {
+        if(cvv.value.length==3){
+            window.location="OTP.html"
+
+        }
+
+        else{
+            alert("cvv must be 3 digits")
+        }
+
+        
+
+        
+    }
+    else{
+        alert("Fill all entry")
+    }
+    }
+
+   
+
+
+</script>
