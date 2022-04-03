@@ -1,28 +1,39 @@
-document.querySelector("#button").addEventListener("click", CONTINUE);
-  var regdUsers = JSON.parse(localStorage.getItem("userDatabase"));
-  function CONTINUE() {
-    var email = document.querySelector("#email").value;
-    var password = document.querySelector("#password").value;
+document.querySelector("#button").addEventListener("click",login);
+async function login(event) {
+  event.preventDefault()
+  try {
+      let loginData = {
+          email: document.querySelector("#email").value,
+          password: document.querySelector("#password").value
+      };
+      loginData = JSON.stringify(loginData);
 
-    
-      var final=false;
-      for (var i = 0; i < regdUsers.length; i++) {
-        
-        if (regdUsers[i].emailAdd == email && regdUsers[i].pass == password) {
-          final=true;
-        }
-        
-      }
-      if(final==true)
-      {
-        alert("Login Successfull!");
-          window.location.href = "Landing_Page_Ayaz.html"
-      }
-      else{
-        alert("Invalid Username of password")
-      }
-    }
-  
+      let res = await fetch("http://localhost:5600/login",
+          {
+              method: "POST",
+              body: loginData,
+              headers: {
+                  "Content-Type": "application/json",
+              },
+          }
+      );
+      let user = await res.json();
+
+      if (user.status == true) {
+          alert("Login Success !")
+          window.location.href = "Landing_Page_Ayaz.html";
+      } else {
+          alert("Email or Password is incorrect !")
+      };
+
+      console.log("user:", user);
+
+  } catch (error) {
+
+      console.log("error:", error);
+      alert("Email or Password is incorrect !")
+  }
+}
 
   import { navbar } from "./Components/Navbar_ayaz.js";
 document.querySelector("#navbar-container").innerHTML= navbar()
