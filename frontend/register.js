@@ -32,7 +32,7 @@ document.querySelector("#submitId").addEventListener("click", register);
             console.log("user:", user);
         } catch (error) {
             console.log("error:", error);
-            alert("Registration Success !")
+            
         }
     }
 // var userData = JSON.parse(localStorage.getItem("userDatabase")) || [];
