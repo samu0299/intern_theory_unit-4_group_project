@@ -9,7 +9,7 @@ const generateToken = (user) => {
 
 const register = async (req, res) => {
     try{
-        let user = await User.findOne({email : req.body.email})
+        let user = await User.findOne({email : req.body.email});
    
 
         //checking email
@@ -20,11 +20,11 @@ const register = async (req, res) => {
         // if new user, create it or allow to register;
         user = await User.create(req.body);
         
-        const token = generateToken(user)
+        const token = generateToken(user);
         return res.status(200).send({user, token, status:true});
     }
     catch(err){
-        res.status(400).send({message : err.message})
+        res.status(400).send({message : err.message});
     }
 }
 
