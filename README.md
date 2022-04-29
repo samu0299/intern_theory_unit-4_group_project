@@ -7,38 +7,6 @@ This is a working clone of the intern-theory website, this project has been done
 
 We can sign in login,signup,add products to cart,buy prducts
 
-# Pages Build
-
-* Landing Page
-
-<p align="center">
-  <img src="../images/i-home.png" title="Landing">
-</p>
-
-* Registration and Login Page
-
-<p align="center">
-  <img src="https://miro.medium.com/max/2560/1*blrWd0WSKSqMCpDaUc7dUA.jpeg" title="Landing">
-</p>
-
-* Product Page
-
-<p align="center">
-  <img src="https://miro.medium.com/max/2560/1*1_1bpaGxhDcerS624VArMw.jpeg" title="Landing">
-</p>
-
-* Adress Page
-
-<p align="center">
-  <img src="https://miro.medium.com/max/2560/1*blrWd0WSKSqMCpDaUc7dUA.jpeg" title="Landing">
-</p>
-
-* Payment Page
-
-<p align="center">
-  <img src="https://miro.medium.com/max/2560/1*ODZPVUejLh8lNqsOETi6rw.jpeg" title="Landing">
-</p>
-
 # Funtionallity Added
 
 * Signup
