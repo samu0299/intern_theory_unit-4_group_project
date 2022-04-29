@@ -12,7 +12,7 @@ We can sign in login,signup,add products to cart,buy prducts
 * Landing Page
 
 <p align="center">
-  <img src="./images/i-home.png" title="Landing">
+  <img src="../images/i-home.png" title="Landing">
 </p>
 
 * Registration and Login Page
